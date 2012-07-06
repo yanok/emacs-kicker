@@ -39,9 +39,9 @@
 		   (global-set-key (kbd "M-x") 'smex)
 		   (global-set-key (kbd "M-X") 'smex-major-mode-commands)))
 
-   (:name magit				; git meet emacs, and a binding
-	  :after (lambda ()
-		   (global-set-key (kbd "C-x C-z") 'magit-status)))
+;;   (:name magit				; git meet emacs, and a binding
+;;	  :after (lambda ()
+;;		   (global-set-key (kbd "C-x C-z") 'magit-status)))
 
    (:name goto-last-change		; move pointer back to last change
 	  :after (lambda ()
