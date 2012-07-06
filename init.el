@@ -53,6 +53,8 @@
  my:el-get-packages
  '(el-get				; el-get is self-hosting
    escreen            			; screen for emacs, C-\ C-h
+   evil                                 ; vim emulation
+   egg                                  ; magit fork
    php-mode-improved			; if you're into php...
    switch-window			; takes over C-x o
    auto-complete			; complete as you type with overlays
@@ -175,3 +177,9 @@
   (set-frame-parameter nil 'fullscreen
 		       (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
 (global-set-key [f11] 'fullscreen)
+
+;; evil
+(evil-mode)
+
+;;
+(color-theme-tango)
