@@ -55,6 +55,8 @@
    escreen            			; screen for emacs, C-\ C-h
    evil                                 ; vim emulation
    egg                                  ; magit fork
+   slime
+   quack
    php-mode-improved			; if you're into php...
    switch-window			; takes over C-x o
    auto-complete			; complete as you type with overlays
