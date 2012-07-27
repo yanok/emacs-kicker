@@ -183,5 +183,8 @@
 ;; evil
 (evil-mode)
 
+;; forward & back keys
+(global-set-key (kbd "<XF86Forward>") 'next-buffer)
+(global-set-key (kbd "<XF86Back>") 'previous-buffer)
 ;;
 (color-theme-tango)
