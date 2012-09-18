@@ -55,7 +55,6 @@
    escreen            			; screen for emacs, C-\ C-h
    evil                                 ; vim emulation
    egg                                  ; magit fork
-   slime
    quack
    php-mode-improved			; if you're into php...
    switch-window			; takes over C-x o
@@ -182,6 +181,9 @@
 
 ;; evil
 (evil-mode)
+
+(setq inferior-lisp-program "sbcl")
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
 
 ;; forward & back keys
 (global-set-key (kbd "<XF86Forward>") 'next-buffer)
